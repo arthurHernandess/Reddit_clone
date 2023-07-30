@@ -1,0 +1,414 @@
+﻿html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #030303;
+    color: #D7DADC;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+header div a {
+    height: 60px;
+    display:flex;
+}
+
+.menuSection {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    height: 20%;
+    border-bottom: 1px solid #343536;
+    background-color: #34353691;
+}
+
+section {
+    margin-top: 35px;
+    min-width: 1000px;
+    min-height: 900px;
+    height: 1500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+p {
+    margin-left: 2%;
+    font-size: 12px;
+    margin-top: 13px;
+}
+
+#imgLogo {
+    width: 118px;
+    height: 62px;
+}
+
+#icons-header {
+    display: flex;
+    list-style-type: none;
+}
+
+.icons {
+    height: 31px;
+    width: 22px
+}
+
+#divLogo {
+    display: flex;
+    width: 15%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#divComunidades {
+    display: flex;
+    width: 28%;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#divPesquisa {
+    display: flex;
+    width: 95%;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menuSection {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#ComuPesqui {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#txtPesquisa {
+    width: 83%;
+    padding: 5px;
+    outline: none;
+}
+
+#navIcones {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 6px;
+}
+
+#mobileDeitado {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#divUsuario {
+    width: 40%;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#imgNewPost
+{
+    height: 50px;
+    width: 50px;
+}
+
+.material-symbols-outlined
+{
+    font-size: 20px;
+}
+header .material-symbols-outlined:hover
+{
+    font-size: 26px;
+}
+
+input {
+    width: 22%;
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+    background-color: #D7DADC;
+}
+
+#divPost {
+    width: 98%;
+    height: 30px;
+    border: 1px solid #343536;
+    border-radius: 5px;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #343536;
+}
+
+#txtPost {
+    width: 70%;
+}
+
+
+#Posts {
+    width: 41%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.post {
+    min-width: 98%;
+    display: flex;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: 1px solid #343536;
+    padding-right: 8px;
+    background-color: #34353691;
+    max-width: 98%;
+}
+
+.like-dislike {
+    padding: 7px;
+    display: flex;
+    flex-direction: column;
+    min-width: 5%;
+    max-width: 8px;
+    background-color: #34353691;
+    align-items: center;
+}
+
+span {
+    cursor: pointer;
+}
+
+.p-like
+{
+    margin-left:0;
+    color: orange;
+}
+
+h2{
+    margin: 11px;
+    font-size:20px;
+}
+
+nav ul {
+    padding: 0;
+    marker: none;
+}
+
+nav ul li {
+    display: inline-block;
+    /* background-color: #ff0000; */
+    text-align: center;
+    padding: 0 7px;
+    margin-right: 5px;
+    marker: none;
+}
+
+.button {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    color: #D7DADC;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    align-items: center;
+    padding: 10px;
+    padding-right: 0;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.button:hover {
+    cursor: pointer;
+    border: 1px solid #343536;
+}
+
+#btnSaibaMais {
+    display: none;
+}
+
+.logo-img
+{
+    width: 20%;
+}
+
+.logo-reddit
+{
+    width: 50%;
+}
+
+#p-litNoti {
+    position: relative;
+    background-color: red;
+    color: white;
+    font-size: 10px;
+    border-radius: 20px;
+    padding: 2px;
+    margin: 0;
+    height: 13px;
+    top: -28%;
+    width: 23px;
+    left: -21%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.notification {
+    display: flex;
+}
+
+#imgPost1 {
+    width: 80%;
+}
+
+.conteudoPosts {
+    width: 100%;
+    padding-right: 13px;
+    padding-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.imgPosts {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#DF-posts-profile {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+
+#profile a {
+    font-size: 13px;
+    margin-left: 4%;
+}
+
+#profile {
+    display: flex;
+    border-radius: 5px;
+    margin-top: 0;
+    border: 1px solid #343536;
+    background-color: #34353691;
+    max-width: 98%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 19%;
+    margin-left: 20px;
+}
+
+#imgProfile {
+    width: 21%;
+    border-radius: 6px;
+    margin: 10px;
+    border-top: 5px solid #343536;
+    border-left: 5px solid #343536;
+    border-right: 5px solid #343536;
+    padding: 4px;
+    background-color: grey;
+    position: relative;
+    top: 22px;
+}
+
+#addPicture {
+    border: 1px solid #d7dadc;
+    position: relative;
+    background-color: #1a1a1b;
+    color: white;
+    font-size: 22px;
+    border-radius: 20px;
+    padding: 2px;
+    margin: 0;
+    height: 25px;
+    top: 21px;
+    width: 25px;
+    left: -13%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#profilePicture {
+    background-color: #33a8ff;
+    display: flex;
+    align-items: flex-end;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    height: 61%;
+}
+
+#btnCreateAvatar {
+    background: linear-gradient(90deg,#ec0623,#ff8717);
+    height: 31px;
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    cursor: pointer;
+}
+
+.DFinfos {
+    display: flex;
+    width: 90%;
+    max-height: 20%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 0;
+    margin-top: 0;
+    align-content: space-between;
+}
+
+i {
+    font-size: 11px;
+    margin-left: 3%;
+    color: orange;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+    padding-left: 11px;
+    padding-right: 11px;
+}
+
+.p-profile {
+    margin-bottom: 0;
+    margin-right: 2%;
+}
+
+.DFTable
+{
+    display:flex;
+}

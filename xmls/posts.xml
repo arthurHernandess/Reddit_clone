@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<POSTS>
+	<!-- POSTS TATU -->
+	<POST>
+    <USER>Tatu</USER>
+		<TITULO>Cidade Cyberpunk</TITULO>
+		<CONTEUDO>../images/tatuImage1.png</CONTEUDO>
+    <LIKES>45</LIKES>
+	</POST>
+	
+	<POST>
+    <USER>Tatu</USER>
+    <TITULO>In the End Lyrics pq eu amo essa música!!</TITULO>
+    <CONTEUDO>One thing, I don't know why It doesn't even matter how hard you try Keep that in mind, I designed this rhyme To remind myself of a time when I tried so hard In spite of the way you were mockin' me Actin' like I was part of your property Remembering all the times you fought with me I'm surprised it got so far</CONTEUDO>
+    <LIKES>158</LIKES>
+	</POST>
+
+	<POST>
+    <USER>Tatu</USER>
+    <TITULO>Cityscape à noite</TITULO>
+		<CONTEUDO>../images/tatuImage3.png</CONTEUDO>
+    <LIKES>34</LIKES>
+	</POST>
+
+	<POST>
+    <USER>Tatu</USER>
+    <TITULO>Estrelas cadentesss</TITULO>
+		<CONTEUDO>../images/tatuImage4.png</CONTEUDO>
+    <LIKES>76</LIKES>
+	</POST>
+
+	<!-- POSTS MANU -->
+	<POST>
+    <USER>Manu</USER>
+    <TITULO>Tom e Jerry da deepweb s2</TITULO>
+		<CONTEUDO>../images/gatinho-ratinho.png</CONTEUDO>
+    <LIKES>124</LIKES>
+	</POST>
+
+	<POST>
+    <USER>Manu</USER>
+    <TITULO>Gatinhos fofinhos UwU</TITULO>
+		<CONTEUDO>../images/gatinhos-bjinhos.png</CONTEUDO>
+    <LIKES>465</LIKES>
+	</POST>
+
+	<POST>
+    <USER>Manu</USER>
+    <TITULO>Meu gato acha que é o rei da casa...</TITULO>
+		<CONTEUDO>../images/gatinho-folgado.png</CONTEUDO>
+    <LIKES>85</LIKES>
+	</POST>
+
+	<POST>
+    <USER>Manu</USER>
+    <TITULO>GNT OLHA ESSES FILHOTINHOS</TITULO>
+		<CONTEUDO>../images/cachorrinhos.png</CONTEUDO>
+    <LIKES>56</LIKES>
+	</POST>
+	
+	<!-- POSTS LUAN  -->
+	<POST>
+    <USER>Luan</USER>
+    <TITULO>Como fazer botões incríveis com CSS!!</TITULO>
+		<CONTEUDO>../images/luanImage1.png</CONTEUDO>
+    <LIKES>78</LIKES>
+	</POST>
+
+	<POST>
+    <USER>Luan</USER>
+		<TITULO>Spy hayasaka</TITULO>
+		<CONTEUDO>../images/luanImage2.png</CONTEUDO>
+    <LIKES>31</LIKES>
+	</POST>
+
+	<POST>
+    <USER>Luan</USER>
+		<TITULO>Who are the best vocal duo in metalcore?</TITULO>
+    <CONTEUDO>For me, JT and Jesse of ERRA have been an undeniably awesome vocal duo because of how well they complement each other. I was also blown away by how good Tyler and Dakota sounded together in the latest Hollow Front album. Who do you think are the best vocal duos in metalcore?";</CONTEUDO>
+    <LIKES>567</LIKES>
+  </POST>
+
+	<POST>
+    <USER>Luan</USER>
+		<TITULO>Eu amei!</TITULO>
+		<CONTEUDO>../images/luanImage4.png</CONTEUDO>
+    <LIKES>332</LIKES>
+	</POST>
+</POSTS>

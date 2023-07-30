@@ -1,0 +1,17 @@
+﻿html {
+    height: -webkit-fill-available;
+}
+body {
+    margin:0;
+    height: 95%;
+    width: 100%;
+    background-color: #030303;
+    color: #D7DADC;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+h1{ font-size: 34px; }
+    

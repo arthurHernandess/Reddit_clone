@@ -1,0 +1,378 @@
+﻿/* Celular em pé */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    /* HEADER */
+    #divComunidades, #divPesquisa, #navIcones, #divUsuario, #ComuPesqui {
+        display: none;
+    }
+
+    body {
+        display: flex;
+        width: 100%;
+        max-width: 980px;
+    }
+
+    section, header {
+        min-width: 320px;
+        max-width: 980px;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    #divPesquisa {
+        margin: 0;
+        margin-top: 0px;
+    }
+
+    .icons {
+        height: 22px;
+    }
+
+    .um, .dois, .tres {
+        background-color: #fff;
+        height: 6px;
+        width: 80%;
+        margin: 3px auto;
+    }
+
+    #menu-toogle {
+        display: flex;
+        width: 33px;
+        height: 24px;
+        margin-left: 18px;
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        margin-top: 0px;
+    }
+
+    #header {
+        height: 60px;
+        align-items: center;
+        flex-direction: row-reverse;
+    }
+
+    header div a {
+        height: 50%;
+    }
+
+    #imgLogo {
+        width: 120px;
+        height: 60px;
+    }
+
+    #divLogo {
+        margin: auto;
+        width: 31%;
+        position: relative;
+        right: 0;
+    }
+
+    .menuSection.on {
+        width: 100%;
+        flex-direction: column;
+        justify-content: normal;
+    }
+
+    .menuSection.on {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: linear-gradient(90deg,#ec0623,#ff8717);
+        width: 100vw;
+        height: 100vh;
+        z-index: 10;
+        padding-top: 10%;
+    }
+
+    a, p { font-size: 16px; }
+
+    ul {
+        margin: 0;
+    }
+
+    .menuSection.on #divComunidades, .menuSection.on #divPesquisa, .menuSection.on #navIcones, .menuSection.on #divUsuario {
+        display: flex;
+        width: 100%;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        height: 85px;
+        border-bottom: thin solid #e5e3dc;
+    }
+
+    .menuSection.on #ComuPesqui {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse
+    }
+
+    .menuSection.on #divLogo {
+        z-index: 12;
+        margin: 0;
+        right: 0;
+    }
+
+    .menuSection.on button {
+        font-size: 21px;
+    }
+
+    .menuSection.on span {
+        font-size: 26px;
+    }
+
+    .menuSection.on input {
+        font-size: 19px;
+    }
+
+    .menuSection.on #imgLogo {
+        width: 150px;
+        height: 78px;
+    }
+
+    .menuSection.on a {
+        height: 100%;
+    }
+
+    .menuSection.on #menu-toogle {
+        position: absolute;
+        left: 85%;
+        top: 12px;
+    }
+
+    .menuSection.on #menu-toogle .um {
+        transform: rotate(45deg) translate(6px, 7px);
+    }
+
+    .menuSection.on #menu-toogle .dois {
+        opacity: 0;
+    }
+
+    .menuSection.on #menu-toogle .tres {
+        transform: rotate(-45deg) translate(5px, -6px);
+    }
+    /* ----------------- */
+
+
+    /* SECTION */
+    #DF-posts-profile {
+        font-size: 16px;
+        height: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        align-content: center;
+        flex-wrap: nowrap;
+    }
+
+    section {
+        min-height: 800px;
+        max-height: 1900px;
+        height: fit-content;
+        margin-top: 8%;
+        font-size: 19px;
+        padding-bottom: 10%;
+    }
+
+    #profile a { font-size: 16px; }
+    #profile p {
+        font-size: 15px;
+    }
+    #profile i { font-size: 13px; }
+
+    #btnSaibaMais {
+        cursor: pointer;
+        border: 1px solid #343536;
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        color: #D7DADC;
+        background-color: transparent;
+        justify-content: center;
+        outline: none;
+        align-items: center;
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    #btnSaibaMais strong {
+        display: flex;
+        align-items: center
+    }
+
+    .DFinfos.off, .DFTable.off {
+        display: none
+    }
+
+    .DFinfos {
+            height: 124px;
+    }
+
+    .p-like {
+        font-size: 14px;
+    }
+
+    #Posts, #profile {
+        width: 90%;
+        margin-left: 0;
+        margin-bottom: 7%;
+    }
+
+    #mobileDeitado {
+        width: 0;
+    }
+
+    .menuSection.on #mobileDeitado {
+        width: 100%;
+        flex-direction: column;
+    }
+}
+
+
+/* ----------------- */
+
+
+/* Celular deitado */
+@media (min-width: 481px) and (max-width: 860px) {
+    body {
+        display: flex;
+        width: 100%;
+        max-width: 980px;
+    }
+
+    section, header {
+        min-width: 320px;
+        max-width: 980px;
+    }
+
+    section {
+        min-width: 481px;
+    }
+
+    #header { height: 12%; }
+
+    #ComuPesqui {
+        width: 80%;
+        display:flex;
+        flex-direction: column-reverse;
+    }
+
+    body {
+        overflow: initial;
+        display: flex;
+        width: 100%;
+        max-width: 980px;
+    }
+
+    section, header {
+        min-width: 320px;
+        max-width: 980px;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    #divPesquisa {
+        margin: 0;
+        margin-top: 0px;
+    }
+
+    .icons {
+        height: 22px;
+    }
+
+    #header {
+        align-items: center;
+        flex-direction: row-reverse;
+    }
+
+    header div a {
+        height: 100%;
+    }
+
+    #imgLogo {
+        width: 150px;
+        height: 80px;
+    }
+
+    #divLogo {
+        margin: 0;
+        width: 31%;
+        position: relative;
+        right: 0;
+    }
+
+    #divUsuario {
+        width: 44%
+    }
+
+    #navIcones {
+        width: 36%;
+    }
+
+    .menuSection { height:100%; flex-direction: column; }
+
+    #mobileDeitado {
+        width: 80%;
+        justify-content: space-evenly;
+    }
+
+    #txtPesquisa {
+        width: 100%;
+        height: 24px
+    }
+
+    .button { font-size: 16px; }
+
+    #DF-posts-profile {
+        font-size: 16px;
+        height: 3045px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        align-content: center;
+        flex-wrap: nowrap;
+    }
+
+    #profilePicture {
+        height: 88%;
+    }
+
+    #profile {
+        width: 85%;
+        margin-left: 0;
+        margin-bottom: 1%;
+    }
+
+    #imgProfile {
+        width: 13%;
+    }
+
+    #btnCreateAvatar {
+        height: 40px;
+        margin-top: 6%;
+        font-size: 16px;
+    }
+
+    #profile a {
+        font-size: 15px;
+    }
+    #profile p {
+        font-size: 16px;
+    }
+    #profile i {
+        font-size: 14px;
+    }
+
+    table {
+        font-size: 18px;
+        padding-left: 27px;
+        padding-right: 27px;
+    }
+
+    #Posts{ width:85%; }
+}
