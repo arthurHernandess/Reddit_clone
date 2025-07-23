@@ -18,13 +18,13 @@
 		<ASCENDENTE>Câncer</ASCENDENTE>
 	</USUARIO>
 
-	<!-- USUARIO MANU -->
+	<!-- USUARIO fulano de tal -->
 	<USUARIO>
-    <USER>MANU</USER>
-    <NICKNAME>u/manucaaa</NICKNAME>
-		<NOME>Manuela</NOME>
+    <USER>FULANO</USER>
+    <NICKNAME>u/fulaninho</NICKNAME>
+		<NOME>fulano de tal</NOME>
 		<NOTIFICACOES>23</NOTIFICACOES>
-		<IMAGEMPERFIL>../images/manuProfile.png</IMAGEMPERFIL>
+		<IMAGEMPERFIL>../images/fulanoProfile.png</IMAGEMPERFIL>
 		<KARMA>89</KARMA>
 		<DATA>13/03/2017</DATA>
 		<FOLLOWERS>15</FOLLOWERS>
@@ -32,7 +32,7 @@
 		<MBTI>ENTP</MBTI>
 		<PAIXAO>Animais</PAIXAO>
 		<SANGUE>O -</SANGUE>
-		<SIGNO>Gêmeos</SIGNO>
+		<SIGNO>Virgem</SIGNO>
 		<ASCENDENTE>Virgem</ASCENDENTE>
 	</USUARIO>
 

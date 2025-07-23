@@ -29,30 +29,30 @@
     <LIKES>76</LIKES>
 	</POST>
 
-	<!-- POSTS MANU -->
+	<!-- POSTS fulano -->
 	<POST>
-    <USER>Manu</USER>
+    <USER>fulano</USER>
     <TITULO>Tom e Jerry da deepweb s2</TITULO>
 		<CONTEUDO>../images/gatinho-ratinho.png</CONTEUDO>
     <LIKES>124</LIKES>
 	</POST>
 
 	<POST>
-    <USER>Manu</USER>
+    <USER>fulano</USER>
     <TITULO>Gatinhos fofinhos UwU</TITULO>
 		<CONTEUDO>../images/gatinhos-bjinhos.png</CONTEUDO>
     <LIKES>465</LIKES>
 	</POST>
 
 	<POST>
-    <USER>Manu</USER>
+    <USER>fulano</USER>
     <TITULO>Meu gato acha que é o rei da casa...</TITULO>
 		<CONTEUDO>../images/gatinho-folgado.png</CONTEUDO>
     <LIKES>85</LIKES>
 	</POST>
 
 	<POST>
-    <USER>Manu</USER>
+    <USER>fulano</USER>
     <TITULO>GNT OLHA ESSES FILHOTINHOS</TITULO>
 		<CONTEUDO>../images/cachorrinhos.png</CONTEUDO>
     <LIKES>56</LIKES>
